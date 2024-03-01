@@ -10,29 +10,53 @@ using std::cout;
 using std::endl;
 using std::string;
 
-// Non STL version, simple array
-// void Urlify(std::array &Array, int TrueLength)
-// {
-//     for(int i = 0; i < TrueLength; i++)
-//     {
-//     }
-// }
-// STL version
-
-void Urlify_STL(string &String, int TrueLength)
+void Urlify_Array(std::string &String, int TrueLength)
 {
+    // Space Count
+    int SpaceCount = 0;
+    for(int i = 0; i < TrueLength; i++)
+    {
+        if(String[i] == ' ')
+        {
+            SpaceCount++;
+        }
+    }
 
+    // Add the nul terminator to the string to make it complete
+    if(TrueLength < String.size())
+    {
+        String[TrueLength] = '\0';
+    }
+
+    int Index = TrueLength + SpaceCount * 2;
+    for(int i = TrueLength - 1; i >= 0; i--)
+    {
+        if(String[i] == ' ')
+        {
+            String[Index - 1] = '0';
+            String[Index - 2] = '2';
+            String[Index - 3] = '%';
+            Index -= 3;
+        }
+        else
+        {
+            String[Index - 1] = String[i];
+            Index--;
+        }
+    }
 }
 
 void main()
 {
-    // { // STL Version
-    //     string Example = {"Mr John Smith    "};
-    //     Urlify_STL(Example, 13);
-    // }
+    std::string ExampleString = "Mr John Smith    ";
+    std::string ExampleString2 = "Mr Jorge Sanchez    ";
+    std::string ExampleString3 = "Mr John Smith A        ";
 
+    Urlify_Array(ExampleString, 13);
+    Urlify_Array(ExampleString2, 16);
+    Urlify_Array(ExampleString3, 15);
 
-    string A = {"012345 5"};
-    A.replace(6, 1, "%20");
-    cout << A << endl;
+    std::cout << ExampleString << std::endl;
+    std::cout << ExampleString2 << std::endl;
+    std::cout << ExampleString3 << std::endl;
 }
