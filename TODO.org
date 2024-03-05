@@ -1,0 +1,32 @@
+--- Cracking the Coding Interview ---
+
+Do all the excercises for each of these chapters
+
+- [ ] Big-O
+- [X] Technical Questions
+- [X] The Offer and Beyond
+- [ ] Arrays and Strings
+  - [X] 1.1
+  - [X] 1.2
+  - [X] 1.3
+  - [X] 1.4
+  - [ ] 1.5
+  - [ ] 1.6
+  - [ ] 1.7
+  - [ ] 1.8
+  - [ ] 1.9
+- [ ] Linked Lists
+- [ ] Stacks and Queues
+- [ ] Trees and Graphs
+- [ ] Bit Manipulation
+- [ ] Math and Logic Puzzles
+- [ ] OOP Design
+- [ ] Recursion & Dynamic Programming
+- [ ] System Design & Scalability
+- [ ] Sorting and Searching
+- [ ] Testing
+- [ ] C & C++
+- [ ] Databases
+- [ ] Threads and Locks
+- [ ] Moderate
+- [ ] Hard
