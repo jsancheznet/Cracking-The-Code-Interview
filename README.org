@@ -5,12 +5,12 @@ Do all the excercises for each of these chapters
 - [ ] Big-O
 - [X] Technical Questions
 - [X] The Offer and Beyond
-- [ ] Arrays and Strings
+- [] Arrays and Strings
   - [X] 1.1
   - [X] 1.2
   - [X] 1.3
   - [X] 1.4
-  - [ ] 1.5
+  - [X] 1.5
   - [ ] 1.6
   - [ ] 1.7
   - [ ] 1.8
