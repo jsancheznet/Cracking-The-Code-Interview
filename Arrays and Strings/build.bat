@@ -11,3 +11,4 @@ cl 1_1.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE
 cl 1_2.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE
 cl 1_3.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE
 cl 1_4.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE
+cl 1_5.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE
