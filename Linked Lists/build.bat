@@ -9,3 +9,4 @@ set LinkerFlags=-nologo -DEBUG %LibDirectories%
 
 cl 2_1.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE
 cl 2_2.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE
+cl 2_3.cpp %CompilerFlags% /link %LinkerFlags% -SUBSYSTEM:CONSOLE

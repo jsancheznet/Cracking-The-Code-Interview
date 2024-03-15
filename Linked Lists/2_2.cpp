@@ -102,9 +102,11 @@ node *GetKthToLast(list *List, int K)
     }
 
     std::cout << "Kth(" << K << ")" << KPtr->Value << std::endl;
+
+    return KPtr;
 }
 
-void main()
+int main()
 {
     // TODO(Jsanchez): The general algorithm is fine, i need to fix the case when K > NumNodes
 
@@ -121,8 +123,10 @@ void main()
 
     PrintList(MyList);
 
-    node *Kth = GetKthToLast(MyList, 0);
-    node *Kth2 = GetKthToLast(MyList, 1);
-    node *Kth3 = GetKthToLast(MyList, 3);
-    node *Kth4 = GetKthToLast(MyList, 8);
+    node *Kth = GetKthToLast(MyList, 0); Kth;
+    node *Kth2 = GetKthToLast(MyList, 1); Kth2;
+    node *Kth3 = GetKthToLast(MyList, 3); Kth3;
+    node *Kth4 = GetKthToLast(MyList, 8); Kth4;
+
+    return 0;
 }
