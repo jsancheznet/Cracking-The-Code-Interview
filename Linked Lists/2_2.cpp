@@ -106,6 +106,8 @@ node *GetKthToLast(list *List, int K)
 
 void main()
 {
+    // TODO(Jsanchez): The general algorithm is fine, i need to fix the case when K > NumNodes
+
     list *MyList = CreateList();
 
     Prepend(MyList, 10);
