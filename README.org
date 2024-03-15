@@ -1,5 +1,6 @@
 
 
+
 --- Cracking the Coding Interview ---
 
 Do all the excercises for each of these chapters
@@ -19,7 +20,7 @@ Do all the excercises for each of these chapters
   - [ ] 1.9
 - [ ] Linked Lists
   - [X] 2.1
-  - [ ] 2.2
+  - [X] 2.2
   - [ ] 2.3
   - [ ] 2.4
   - [ ] 2.5
